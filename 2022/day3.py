@@ -31,6 +31,6 @@ for i in rucksacks:
                     part2Total += alphabet.find(item.lower()) + 27
                 break
         groupCount = 0
-
+rucksacks.close()
 print(part1Total)
 print(part2Total)

@@ -30,6 +30,6 @@ for i in assignments:
     #Part 2
     if int(elf1Start) <= int(elf2Start) and int(elf1End) >= int(elf2Start) or int(elf2Start) <= int(elf1Start) and int(elf2End) >= int(elf1Start):
         part2Total += 1
-
+assignments.close()
 print(part1Total)
 print(part2Total)
