@@ -1,4 +1,4 @@
-f = open("2024/day1.txt")
+f = open("2024/day1.txt","r")
 input = f.readlines()
 f.close()
 
